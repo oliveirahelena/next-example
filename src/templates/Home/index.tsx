@@ -1,4 +1,4 @@
-import { CloneMe } from '../../components/CloneMe';
+import { CloneMe } from '../../components/organisms/CloneMe';
 import * as Styled from './styles';
 
 export function Home() {

@@ -9,11 +9,11 @@ export const parameters = {
     values: [
       {
         name: 'light',
-        value: theme.colors.white,
+        value: theme.colors.lightBg,
       },
       {
         name: 'dark',
-        value: theme.colors.primaryColor,
+        value: theme.colors.darkBg,
       },
     ]
   }
