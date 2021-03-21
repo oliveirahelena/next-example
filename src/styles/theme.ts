@@ -4,10 +4,11 @@ export const theme = {
     secondaryColor: '#dc143c',
     white: '#FFFFFF',
     mediumGray: '#DDDDDD',
+    background: '#F0F2F5',
   },
   font: {
     family: {
-      default: "'Open Sans', sans-serif",
+      default: "'Poppins', sans-serif",
       secondary: "'Montserrat', sans-serif",
     },
     sizes: {
