@@ -1,5 +1,5 @@
-import { Home } from '../templates/Home';
+import { Base } from '../templates/Base';
 
 export default function Index() {
-  return <Home>Oi</Home>;
+  return <Base>Hello!</Base>;
 }
