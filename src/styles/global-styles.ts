@@ -20,13 +20,14 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: ${({ theme }) => theme.colors.lightBg};
+    background: ${({ theme }) => theme.colors.background};
     -webkit-font-smoothing: antialiased;
   }
 
-  body, input, textarea, button {
+  body, input, textarea, button, select {
     font-family: ${({ theme }) => theme.font.family.default};
     font-weight: 400;
+    font-size: 1rem;
   }
 
   h1, h2, h3, h4, h5, h6 {
